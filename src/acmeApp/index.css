@@ -1,0 +1,54 @@
+body {
+  background-color:white;
+  
+}
+.jumbotron {
+  background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+  color:black;
+  border: solid 2px black;
+  text-align: center;
+  border-radius:20px;
+  padding: 25px;
+  font-size:3em;
+  letter-spacing:3px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: underline;
+  text-shadow: 3px 2px white;
+
+}
+
+
+.customer-card{
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  color:white;
+  font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.customer-card-container{
+  border: solid 2px white;
+}
+
+img {
+  max-width: 50%;
+  max-height: 50%;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.footer {
+  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+  background-blend-mode: screen; 
+  text-align:center;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: 2px solid black;
+  border-radius: 20px;
+
+}

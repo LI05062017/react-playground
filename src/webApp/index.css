@@ -1,0 +1,107 @@
+body {
+	background-color: #ecf0f1;
+	height: 100vh;
+	width: 100vw;
+}
+.myNav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ecf0f1;
+    padding: 5px;
+    width: 100vw;
+    box-shadow: 1px 1px 5px #888888;
+    margin: -10px -10px 20px -10px
+}
+
+.jumbotron {
+	background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+	border: solid 2px black;
+	text-align:center;
+	padding: 20px;
+	border-radius: 20px;
+	margin: 10px 20px 10px 20px;
+}
+.link{
+	border: solid 1px black;
+	width: 25%;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+
+.link:hover{
+	background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+	cursor: pointer;
+	border-bottom: solid 3px black;
+	
+}
+
+.about {
+	background-color:#8e44ad;
+	border: 2px solid black;
+	padding-top: 15px;
+	border-radius: 20px;
+	text-align:center;
+}
+
+.services{
+ background-color:#7f8c8d;
+ border: 2px solid black;
+ padding: 15px;
+ border-radius: 20px;
+ text-align:center;
+}
+
+.products{
+	background-color:#9b59b6;
+	border: 2px solid black;
+	padding: 15px;
+	border-radius: 20px;
+  text-align:center;
+}
+.service-card {
+	width: 25%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.icon-circle {
+	border-radius: 20px;
+	background-color:purple;
+	width:100px;
+	height:100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.service-icon {
+	font-size: 70px;
+	color:white;
+}
+
+.service-card-container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.product-card {
+	width: 33.333%;
+	border: 1px solid black;
+	display:flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color:white;
+	border-radius:20px;
+}
+
+img {
+	max-width: 80%;
+}
+
+.product-card-container {
+	display: flex;
+	justify-content: space-around;
+}
