@@ -1,0 +1,24 @@
+.jumbotron {
+  background-color:black;  
+  color:white;
+  border: 3px solid white;
+  border-radius:0%;
+  padding:10%;
+ display: flex;
+ justify-content:center;
+  
+  
+}
+.monsterCard {
+  color:white;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  display:flex;
+  justify-content: center;
+  border: 2px solid black;
+  flex-direction: column;
+  align-items:center;
+}
+
+.monsterCard img{
+  max-width: 75%;
+}

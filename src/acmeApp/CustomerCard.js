@@ -1,20 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const CustomerCard = ({name, email, img}) => {
+const CustomerCard = ({customer}) => {
   return (
     <div className='customer-card'>
-      <h4> {name} </h4>
-      <h4> {email} </h4>
-      <img src={img} />
+      <h4> {customer.name} </h4>
+      <h4> {customer.email} </h4>
+      <img src={customer.img} />
     </div>
   )
 }
 
 CustomerCard.propTypes = {
-  name: PropTypes.string.isRequired,
-  email: PropTypes.string.isRequired,
-  img: PropTypes.string.isRequired
+  customer: PropTypes.object.isRequired
 }
 
 export default CustomerCard

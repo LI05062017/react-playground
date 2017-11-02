@@ -1,0 +1,10 @@
+.chatSection {
+  border : 1px solid black;
+  align-items: center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+
+
+}
