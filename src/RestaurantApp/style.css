@@ -1,0 +1,97 @@
+.body {
+background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqh7Oq6TDA6lFF3YhwhKq7eDGBpPKUds0ebhEDqGj5Yxf2m3Je);
+background-size:1700px;
+}
+
+.jumbotron {
+  background-color:black;
+  color:white;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid Black;
+  padding: 10px;
+}
+
+.jumbotronTwo {
+  background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0i9xA3ut23KuhPDJcvQZ2eYdIcUVD5OWQb-UElRffwx-xhDjv);
+  color:white;
+  border-radius: 15px;
+  background-color: white;
+  background-size:900px;
+  color:black;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 3px;
+  font-family: 'Kaushan Script', cursive;
+
+}
+
+.PhoneNumber {
+  border-radius: 5px;
+  padding:15px;
+  background-color:black;
+  color:white;
+  text-align: center;
+}
+
+.Address {
+  border: 1px solid black;
+  text-align: center;
+}
+.priceTag img {
+  background-color: black;
+  max-width: 15%;
+  border-radius: 50%;
+  border: 1px solid white;
+  display:block;
+  margin: auto;
+}
+.allItems { 
+  background:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSExIVFRUXFxcXFRUVFRUVFRUVFxUXFxUXFRUYHSggGB0lHRcXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0OFQ8PFSsdFRktLSstKy0tLS0tLS0tLS0tKy0tLS0rNystLSstKzctLTctNy0tLS0tLSs3LTcrLTctLf/AABEIALcBEwMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAABAAIDBAcF/8QAJRABAQEBAAIBAwMFAAAAAAAAAAECERIhQQMxUWGh8HGBseHx/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/APrtyefoopHmd1L0+CzHRRnM40ONCMaiK1AY4ZOHhpBmZMhsQDg1D0aBnxEnGpVlFUHi1Ys1RjrSUiBkGstdY1FGbGvEyDSA8RrP+21Vg4bz8nWfk2N9ZiuUys5dMwEHPcYrtxy3E1ccmN5d7GdRGq5BvxSK/Rk/4YoXVxaCoqo1AiCQtXQFyoQKhEagz0oAjIlaCmT0USgoSyCZtao8eipajXBIC4aDwRirJsXBVIzq/hpmgx4nUVYrKs7jMdLlnU5EVzv9f2TSRp7ooz7MdHJsKFUEpopoIVcVFQrTNBRJIJcIAWqRSHgKDRkVgC0cNHAVMDWYCZrdFigUBQTDV0JRRabF00HPWVMR0rPEgzxy3+HasU1ccrUdSJlp7JVwxNubNaiMUZRsXAMFIoiS6hUCEDFFEqJFAOKmsihSEoM8EbQJnpqUCSoMaMhqRWPlpnR6Co1ritYRTKzYuLWQSHSD0wqLjTJVVQihCAUG1CoEgzEUgulCKhTNpAhdVFQqVgFnotZQjpQusWlG5RKxKb6FatUHfkANflSG+xIgGsw2CKBnTVFFc7lNy/z0kg9EpEMaYC4eIFEgC60yugbEjQA6Na45379B2Z6JoTQNKVjX1Fd/uK2XKfUauwaZ3pm2+lb+RDnXV+o6z5orp1ajN03L0GYL37NKiudpiueNIKGM50ZVFWbGqzaCkZp6qiskIHohlZhVloKRKJKoFQUgIJpVQDqdYuWzVGcz0zM1tAxrF+DnH2bqgOfh914N2oGd5Z8G+noOfh/P7cU+m6VWg56z7V73/LVSAqhZ6K1PaUVEZ1PlNMyCqpDgJnTTFqKEeIHbpGWlZXEeiVQ0LpBlqBIHgIBFGKgqVFopqC6CS6kAqqOgah0UD0Uw8ASCRqIUCQ2IQUWjXtj6malVeVammWNIrWr03rNhoMzSVqFj1QxmNNMCmiwygI0LF0DQo0oOixBA9XVYAI411nVA8ZpzWqDJ6gCQWgNjNMVBY+yqh4C6LVXO0XHRndVo6B4kgYk9rwPGOoqmTqqVhBWoXSFerh6yOtMt9Egla6B6lEqJIWoECVqgWeKEArCKC4ZfQlE0DTPD0AbFKjVALSEDFF0QDqM1WigNmVm5+WxVazCPuCZ2erdRXPo7+48vbWkVmQGSIHeU9c/p7Mq1G4c1npqo3FKxGhGusrrPmK1KWYZQNF0uMbBvo1R0dAnDPW8oDp6LGdaUamj1zy1QN0zqpipquo1Rlm33zoit9tVeMQHK6zKzb7COnWazarQhl9ManpnVV2lagufQ1o+Tnqpo0mP59ilV0l+T3iSjr5mJNMrqtSA37CRIDLxZ17SBq0bqSozfyz32kyra8klDqsSpGmGVnqQLq0kDNt4c5SRV321YkqMSc9m1IUWi6SQYl61UhWPqVylSTVxi6SSK/9k=);
+  background-size:2000px;
+  box-shadow: 5px 5px 5px black;
+  background-color:red;
+  background-size:500px;
+  border-radius: 15px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-flow:column wrap;
+  align-content: flex-end;
+}
+
+.itemName {
+  font-family: 'Merienda', cursive;
+  font-size: 40px;
+  margin: 15px;
+  text-decoration: underline;
+}
+
+.itemPrice {
+  margin: -5px;
+}
+
+.itemCatagory {
+  
+}
+.spiceLevel {
+ padding: 10px;
+ margin: 5px;
+}
+.itemSpiceLevel{
+ margin: -3px;
+}
+
+.allItems img {
+  padding: 1%;
+  margin: 3%;
+  border: 1px solid black;
+  max-width: 50%;
+  max-height: auto;
+  border-radius: 8px;
+
+}
