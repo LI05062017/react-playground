@@ -16,7 +16,7 @@ const headerStyle = {
 
 const Header = () => {
   return (
-    <div style={headerStyle.container}>
+    <div style={headerStyle.jumbotron}>
       <h3> To Do List App </h3>
     </div>
   )

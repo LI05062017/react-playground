@@ -1,13 +1,12 @@
 import React from 'react'
-import Link from './Link'
+import {
+  Link
+} from 'react-router-dom'
 
 const NavigationBar = () => {
   return (
     <nav className='myNav'>
-      <Link icon={'home'} name={'HOME'} />
-      <Link icon={'question-circle-o'} name={'ABOUT'} />
-      <Link icon={'product-hunt'} name={'PRODUCTS'} />
-      <Link icon={'address-book'} name={'CONTACT'} />
+      <Link to='/'> Name </Link>
     </nav>
   )
 }
