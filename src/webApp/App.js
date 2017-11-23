@@ -4,86 +4,84 @@ import './index.css'
 import Jumbotron from './Jumbotron'
 import NavigationBar from './Navigation'
 import Section from './Section'
-import ServicesCard from './ServicesCard'
-import ProductCard from './ProductCard'
+import ResumeCard from './ResumeCard'
+import ProjectCard from './ProjectCard'
 import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
 
-const App = () => {
-  return (
+const Home = () => <div> Home Page </div>
+const About = () => <div> About me </div>
+const Portfolio = () => <div> Portfolio </div>
+const Contact = () => <div> Contact Info </div>
 
-    <Router>
-      <div>
-        <Route exact path='/' component={Jumbotron} />
+const App = () =>
+  <Router>
+    <div>
+      <Route path='/home' component={Home} />
+      <Route path='/about' component={About} />
+      <Route path='/about' component={Portfolio} />
+      <Route path='/about' component={Contact} />
+      <NavigationBar />
+      <Jumbotron
+        title={'Lyndee Redfield'}
+        desc={'Web Development & Full Stack JavaScript '}
+      />
+      <Section
+        sectionStyle='about'
+        title={'About Me'}
+        content={'Welcome to my Resume! This is my personal Portfolio of work I have completed, as a student at Big Sky Code Academy.'} />
 
-        <NavigationBar />
-        <Jumbotron
-          title={faker.name.title()}
-          desc={faker.lorem.sentence()}
-        />
-        <Section
-          sectionStyle='about'
-          title={'About'}
-          content={'This is the best about section'}>
-          <div>
-            <h3> I am now children WooHoo!</h3>
-          </div>
-        </Section>
+      <Section
+        sectionStyle='resume'
+        title={'Resume'}
+      >
+        <div className='resume-card-container'>
+          <ResumeCard
+            title={'Skills'}
+            details={'My Skills'}
+          />
+          <ResumeCard
+            title={'Qualifications'}
+            details={'My Qualifications'}
+          />
+          <ResumeCard
+            title={'Education'}
+            details={'My Completed Education'}
+          />
+          <ResumeCard
+            title={'Objective'}
+            details={'My Objective'}
+          />
+        </div>
+      </Section>
+      <Section
+        sectionStyle='projects'
+        title={'Work by Me'}
+        content={'My Completed Projects'}
+      >
 
-        <Section
-          sectionStyle='services'
-          title={'Services'}
-          content={'Read about our servies'}
-        >
-          <div className='service-card-container'>
-            <ServicesCard
-              title={'Services'}
-              details={'Ichiban Video Webinars'}
-            />
-            <ServicesCard
-              title={'Services'}
-              details={'Ichiban Video Webinars'}
-            />
-            <ServicesCard
-              title={'Services'}
-              details={'Ichiban Video Webinars'}
-            />
-            <ServicesCard
-              title={'Services'}
-              details={'Ichiban Video Webinars'}
-            />
-          </div>
-        </Section>
-        <Section
-          sectionStyle='products'
-          title={'Products'}
-          content={'Best Selling products'}
-        >
-
-          <div className='product-card-container'>
-            <ProductCard product={faker.commerce.product()}
-              price={faker.commerce.price()}
-              img={faker.random.image()}
-            />
-            <ProductCard product={faker.commerce.product()}
-              price={faker.commerce.price()}
-              img={faker.random.image()}
-            />
-            <ProductCard product={faker.commerce.product()}
-              price={faker.commerce.price()}
-              img={faker.random.image()}
-            />
-            <ProductCard product={faker.commerce.product()}
-              price={faker.commerce.price()}
-              img={faker.random.image()}
-            />
-          </div>
-        </Section>
-      </div>
-    </Router>
-  )
-}
+        <div className='project-card-container'>
+          <ProjectCard product={'Project'}
+            title={'Project One'}
+            img={faker.random.image()}
+          />
+          <ProjectCard product={'Project'}
+            title={'Project Two'}
+            img={faker.random.image()}
+          />
+          <ProjectCard product={'Project'}
+            title={'Project Three'}
+            img={faker.random.image()}
+          />
+          <ProjectCard product={'Project'}
+            title={'Project Four'}
+            img={faker.random.image()}
+          />
+        </div>
+      </Section>
+    </div>
+  </Router>
 
 export default App

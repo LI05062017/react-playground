@@ -5,7 +5,6 @@ const Section = ({title, content, sectionStyle, children}) => {
   return (
     <div className={sectionStyle}>
       <h5> {title} </h5>
-      <p> {content} </p>
       {children}
     </div>
   )

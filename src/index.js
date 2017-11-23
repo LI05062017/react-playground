@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import App from '.webApp/App'
+// import App from './webApp/App'
 // import App from './acmeApp/App'
 // import MonsterApp from './monsterMash/monsterApp'
 // import data from './acmeApp/data'
@@ -14,6 +14,7 @@ import App from '.webApp/App'
 // import App from './toDoSolution/App'
 // import App from './MapAndFilterReview/App'
 // import App from './router-introduction/App'
+import App from './Starbucks_analysis/App'
 // import registerServiceWorker from './registerServiceWorker'
 
 ReactDOM.render(<App />, document.getElementById('root'))

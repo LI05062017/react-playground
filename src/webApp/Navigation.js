@@ -6,7 +6,10 @@ import {
 const NavigationBar = () => {
   return (
     <nav className='myNav'>
-      <Link to='/'> Name </Link>
+      <Link to='/'> Home </Link>
+      <Link to='/'> About </Link>
+      <Link to='/'> Portfolio </Link>
+      <Link to='/'> Contact Me </Link>
     </nav>
   )
 }
